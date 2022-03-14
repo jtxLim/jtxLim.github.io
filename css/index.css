@@ -178,6 +178,19 @@ template {
 [hidden] {
   display: none
 }
+/* 鼠标图标 */
+body {
+  background: rgba(255, 255, 255, .5);
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/Jkll8I.png), auto;
+  margin: 0;
+}
+a:hover{
+  text-decoration: none;
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+
+
+
 .limit-one-line,
 #article-container .flink .flink-item-name,
 #article-container .flink .flink-item-desc,
@@ -1346,7 +1359,7 @@ canvas:not(#ribbon-canvas),
   --btn-color: #fff;
   --btn-bg: #49b1f5;
   --text-bg-hover: rgba(73,177,245,0.7);
-  --light-grey: #eee;
+  --light-grey: #80bdab;
   --dark-grey: #cacaca;
   --white: #fff;
   --text-highlight-color: #1f2d3d;
@@ -3563,6 +3576,9 @@ h1.page-title + .tag-cloud-list {
 }
 #nav .site-page:not(.child):hover:after {
   width: 100%;
+}
+#page-header a {
+  color: #e3fdfd;
 }
 .loading-bg,
 #loading-box .loading-left-bg,
